@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import arrowLeftIcon from "../assets/arrow-left.png";
 
 const ProjectCard = ({
   index,
@@ -15,6 +16,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  play_game_link,
+  report_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -62,6 +65,35 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        {play_game_link && (
+          <div className='mt-4'>
+            <a
+              href={play_game_link}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-orange-500 hover:underline flex items-center'
+            >
+              Play a quick game
+              <img src={arrowLeftIcon} alt="Arrow Icon" className='w-4 h-4 ml-2' />
+            </a>
+          </div>
+        )}
+
+        {report_link && (
+          <div className='mt-4'>
+            <a
+              href={report_link}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-blue-500 hover:underline flex items-center'
+            >
+              Read the report
+              <img src={arrowLeftIcon} alt="Arrow Icon" className='w-4 h-4 ml-2' />
+            </a>
+          </div>
+        )}
+
       </Tilt>
     </motion.div>
   );
@@ -97,4 +129,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

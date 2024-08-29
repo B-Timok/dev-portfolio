@@ -64,15 +64,17 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full h-screen flex justify-center items-center p-4">
+    <section id="contact" className="w-full h-screen flex justify-center items-center p-4">
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        initial="hidden"
-        animate="show"
-        className='flex-[0.75] bg-black-100 p-6 rounded-2xl max-w-lg w-full'
+      variants={slideIn("left", "tween", 0.2, 1)}
+      initial="hidden"
+      animate="show"
+      className='flex-[0.75] bg-black-100 p-6 rounded-2xl max-w-lg w-full'
       >
+      <div className="flex flex-col items-center">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+      </div>
 
         <form
           ref={formRef}
@@ -115,7 +117,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-2 px-6 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-2 px-6 rounded-xl outline-none w-1/2 text-white font-bold shadow-md shadow-primary mx-auto border-2 border-white hover:border-purple-500'
           >
             {loading ? "Sending..." : "Send"}
           </button>

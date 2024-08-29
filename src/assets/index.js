@@ -24,17 +24,22 @@ import cpp from "./tech/cpp.png";
 import elephant from "./tech/elephant.png";
 import microsoft from "./tech/microsoft.png";
 import python from "./tech/python.png";
+import linkedin from "./linkedin.png";
+import githublink from "./githublink.png";
 
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import unlv from "./company/unlv.jpg";
 import lessi from "./company/lessi.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tictactoe from "./tictactoe.png";
+import roadwatch from "./roadwatch.png";
+import speedcubedb from "./speedcubedb.png";
+import pokemon from "./pokemon.png";
+import nbascores from "./nbascores.png";
+import sortingalgs from "./sortingalgs.png";
 
 export {
   backend,
@@ -65,9 +70,14 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
+  unlv,
   lessi,
-  carrent,
-  jobit,
-  tripguide,
+  tictactoe,
+  roadwatch,
+  speedcubedb,
+  pokemon,
+  nbascores,
+  sortingalgs,
+  linkedin,
+  githublink,
 };
