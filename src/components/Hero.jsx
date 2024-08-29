@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.png";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto hero-section`}>
+    <section className={`relative w-full min-h-screen mx-auto hero-section`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
