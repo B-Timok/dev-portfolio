@@ -26,6 +26,7 @@ import microsoft from "./tech/microsoft.png";
 import python from "./tech/python.png";
 import linkedin from "./linkedin.png";
 import githublink from "./githublink.png";
+import cv from "./cv.png";
 
 
 import meta from "./company/meta.png";
@@ -80,4 +81,5 @@ export {
   sortingalgs,
   linkedin,
   githublink,
+  cv,
 };

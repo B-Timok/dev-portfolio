@@ -34,6 +34,7 @@ import {
   python,
   linkedin,
   githublink,
+  cv,
 } from "../assets";
 
 export const navLinks = [
@@ -56,7 +57,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    url: "src/assets/BTimokResume24.pdf",
+    url: "/BTimokResume24.pdf",
   },
   {
     id: "contact",
@@ -276,7 +277,7 @@ const projects = [
     ],
     image: pokemon,
     source_code_link: "https://github.com/nickhouses/ML/tree/main/Project",
-    report_link: "src/assets/PokemonML.pdf",
+    report_link: "/PokemonML.pdf",
   },
   {
     name: "NBA Scoreboard Analysis",
@@ -330,6 +331,12 @@ const socialMediaLinks = [
     title: "LinkedIn",
     url: "https://www.linkedin.com/in/brandon-timok-589765253/",
     icon: linkedin, 
+  },
+  {
+    id: "cv",
+    title: "Resume",
+    url: "/BTimokResume24.pdf",
+    icon: cv,
   },
   {
     id: "githublink",

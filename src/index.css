@@ -169,6 +169,10 @@
   color: #3bd455; /* GitHub text turns green on hover */
 }
 
+.social-media-link.resume:hover {
+  color: #fdeb6f; /* Resume text turns red on hover */
+}
+
 /* Base styles for the image */
 
 /* Mobile styles */

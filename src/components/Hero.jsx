@@ -1,10 +1,9 @@
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import avatar from "../assets/avatar.png";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full min-h-screen mx-auto hero-section`}>
+    <section className={`relative w-full mx-auto hero-section min-h-[50vh] sm:min-h-screen`}>
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
