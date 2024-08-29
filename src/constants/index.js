@@ -179,33 +179,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-  {
-    testimonial:
-      "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-  {
-    testimonial:
-      "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-];
-
 const projects = [
   {
     name: "Roadwatch",
@@ -366,4 +339,4 @@ const socialMediaLinks = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, socialMediaLinks };
+export { services, technologies, experiences, projects, socialMediaLinks };
