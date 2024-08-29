@@ -15,8 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   unlv,
   shopify,
   lessi,

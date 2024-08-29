@@ -28,10 +28,7 @@ import linkedin from "./linkedin.png";
 import githublink from "./githublink.png";
 import cv from "./cv.png";
 
-
-import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import unlv from "./company/unlv.png";
 import lessi from "./company/lessi.png";
 
@@ -68,9 +65,7 @@ export {
   elephant,
   microsoft,
   python,
-  meta,
   shopify,
-  starbucks,
   unlv,
   lessi,
   tictactoe,
