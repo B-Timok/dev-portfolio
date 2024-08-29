@@ -183,10 +183,14 @@
   }
 }
 
-/* Base styles for the Works section */
-.works-section {
-  padding: 20px;
-  display: block; /* Ensure the section is displayed */
+@media (max-width: 768px) {
+  .hero-section {
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
+
+  .about-section {
+    margin-top: 20px; /* Adjust this value as needed */
+  }
 }
 
 /* Mobile styles */
