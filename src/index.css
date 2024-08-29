@@ -173,6 +173,18 @@
   color: #fdeb6f; /* Resume text turns red on hover */
 }
 
+@media (max-width: 600px) {
+  .social-media-link {
+    flex-direction: column; /* Stack icon and text vertically on small screens */
+    align-items: center;
+  }
+
+  .social-media-icon {
+    margin-right: 0;
+    margin-bottom: 4px;
+  }
+}
+
 /* Base styles for the image */
 
 /* Mobile styles */
