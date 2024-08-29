@@ -179,7 +179,35 @@
   }
 
   .hero-section {
-    margin-bottom: 20px; /* Reduce the bottom margin for mobile */
+    margin-bottom: 10px; /* Reduce the bottom margin for mobile */
+  }
+}
+
+/* Base styles for the Works section */
+.works-section {
+  padding: 20px;
+  display: block; /* Ensure the section is displayed */
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .works-section {
+    padding: 10px; /* Adjust padding for mobile */
+    display: block; /* Ensure the section is displayed on mobile */
+    margin-top: 0; /* Adjust margin for mobile */
+  }
+
+  .works-section .text-secondary {
+    font-size: 14px; /* Adjust font size for mobile */
+    line-height: 1.5; /* Adjust line height for mobile */
+  }
+
+  .works-section .mt-20 {
+    margin-top: 10px; /* Adjust margin for mobile */
+  }
+
+  .works-section .flex-wrap {
+    flex-direction: column; /* Stack items vertically on mobile */
   }
 }
 
