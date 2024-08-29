@@ -277,7 +277,7 @@ const projects = [
     ],
     image: pokemon,
     source_code_link: "https://github.com/nickhouses/ML/tree/main/Project",
-    report_link: "/PokemonML.pdf",
+    report_link: `${baseUrl}/PokemonML.pdf`,
   },
   {
     name: "NBA Scoreboard Analysis",
