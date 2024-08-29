@@ -1,3 +1,5 @@
+const baseUrl = "https://b-timok.github.io/dev-portfolio";
+
 import {
   mobile,
   backend,
@@ -55,7 +57,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    url: "/BTimokResume24.pdf",
+    url: `${baseUrl}/BTimokResume24.pdf`,
   },
   {
     id: "contact",
@@ -333,7 +335,7 @@ const socialMediaLinks = [
   {
     id: "cv",
     title: "Resume",
-    url: "/BTimokResume24.pdf",
+    url: `${baseUrl}/BTimokResume24.pdf`,
     icon: cv,
   },
   {
@@ -344,4 +346,4 @@ const socialMediaLinks = [
   },
 ];
 
-export { services, technologies, experiences, projects, socialMediaLinks };
+export { services, technologies, experiences, projects, socialMediaLinks, };
