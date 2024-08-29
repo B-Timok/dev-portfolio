@@ -175,13 +175,13 @@
 
 @media (max-width: 600px) {
   .social-media-link {
-    flex-direction: column; /* Stack icon and text vertically on small screens */
-    align-items: center;
+    font-size: 0.8rem; /* Make the text smaller */
   }
 
   .social-media-icon {
-    margin-right: 0;
-    margin-bottom: 4px;
+    width: 20px; /* Make the icon smaller */
+    height: 20px; /* Make the icon smaller */
+    margin-right: 4px; /* Adjust spacing */
   }
 }
 
