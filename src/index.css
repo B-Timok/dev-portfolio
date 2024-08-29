@@ -195,6 +195,9 @@
     padding: 10px; /* Adjust padding for mobile */
     display: block; /* Ensure the section is displayed on mobile */
     margin-top: 0; /* Adjust margin for mobile */
+    visibility: visible; /* Ensure visibility */
+    opacity: 1; /* Ensure opacity */
+    z-index: 1; /* Ensure it is above other elements */
   }
 
   .works-section .text-secondary {
