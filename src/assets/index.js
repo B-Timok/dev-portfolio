@@ -32,7 +32,7 @@ import cv from "./cv.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import unlv from "./company/unlv.jpg";
+import unlv from "./company/unlv.png";
 import lessi from "./company/lessi.png";
 
 import tictactoe from "./tictactoe.png";
