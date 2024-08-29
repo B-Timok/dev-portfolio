@@ -15,15 +15,15 @@ const Hero = () => {
 
         <div className='flex flex-row items-start gap-5'>
           <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Brandon</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a software developer with a passion for web development, data science, and IT.
-          </p>
+            <h1 className={`${styles.heroHeadText} text-white`}>
+              Hi, I'm <span className='text-[#915EFF]'>Brandon</span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+              I'm a software developer with a passion for web development, data science, and IT.
+            </p>
           </div>
           <div className='flex-shrink-0'>
-            <img src={avatar} alt="Brandon" className='w-41 h-41 rounded-full' />
+            <img src={avatar} alt="Brandon" className='profile-picture' />
           </div>
         </div>
       </div>

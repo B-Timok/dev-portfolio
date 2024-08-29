@@ -169,6 +169,21 @@
   color: #3bd455; /* GitHub text turns green on hover */
 }
 
+/* Base styles for the image */
+.profile-picture {
+  width: 164px; /* 41 * 4 */
+  height: 164px; /* 41 * 4 */
+  border-radius: 50%;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 100px; /* Adjust the width for mobile */
+    height: 100px; /* Adjust the height for mobile */
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
