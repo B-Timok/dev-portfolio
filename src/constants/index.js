@@ -252,7 +252,7 @@ const projects = [
       },
     ],
     image: speedcubedb,
-    source_code_link: "https://github.com/yourusername/speedcube-database",
+    source_code_link: "https://github.com/B-Timok/SideProjects/tree/main/sqlProjects/speedCubes",
   },
   {
     name: "Pokemon Egg Hatching",
@@ -301,7 +301,7 @@ const projects = [
       }
     ],
     image: nbascores,
-    source_code_link: "https://github.com/yourusername/nba-scoreboard-analysis",
+    source_code_link: "https://github.com/B-Timok/SideProjects/tree/main/pyProjects/sportsScores",
   },
   {
     name: "Sorting Algorithms with Pygame",
