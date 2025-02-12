@@ -46,7 +46,7 @@ const Navbar = () => {
           <img src={bt} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Brandon Timok &nbsp;
-            <span className='sm:block hidden'> | Computer Science</span>
+            <span className='sm:block hidden'> | B.S Computer Science</span>
           </p>
         </Link>
 
