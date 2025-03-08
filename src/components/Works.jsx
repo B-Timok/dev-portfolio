@@ -18,8 +18,9 @@ const ProjectCard = ({
   source_code_link,
   play_game_link,
   report_link,
+  app_link,
 }) => {
-return (
+  return (
     <div>
       <Tilt
         options={{
@@ -64,36 +65,43 @@ return (
               #{tag.name}
             </p>
           ))}
-        </div>
 
-        {play_game_link && (
-          <div className='mt-4'>
+          {app_link && (
+            <a
+              href={app_link}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-[14px] text-green-500 hover:underline flex items-center'
+            >
+              Open the app
+              <img src={arrowLeftIcon} alt="Arrow Icon" className='w-4 h-4 ml-2' />
+            </a>
+          )}
+
+          {play_game_link && (
             <a
               href={play_game_link}
               target='_blank'
               rel='noopener noreferrer'
-              className='text-orange-500 hover:underline flex items-center'
+              className='text-[14px] text-orange-500 hover:underline flex items-center'
             >
               Play a quick game
               <img src={arrowLeftIcon} alt="Arrow Icon" className='w-4 h-4 ml-2' />
             </a>
-          </div>
-        )}
+          )}
 
-        {report_link && (
-          <div className='mt-4'>
+          {report_link && (
             <a
               href={report_link}
               target='_blank'
               rel='noopener noreferrer'
-              className='text-blue-500 hover:underline flex items-center'
+              className='text-[14px] text-blue-500 hover:underline flex items-center'
             >
               Read the report
               <img src={arrowLeftIcon} alt="Arrow Icon" className='w-4 h-4 ml-2' />
             </a>
-          </div>
-        )}
-
+          )}
+        </div>
       </Tilt>
     </div>
   );

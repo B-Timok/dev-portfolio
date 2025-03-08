@@ -39,7 +39,9 @@ const About = () => {
       </div>
 
       <p className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        As a recent Computer Science graduate with a Bachelor's of Science degree from UNLV, I’m a driven software developer skilled in Python, C#, SQL, and JavaScript, with an interest in web development and data science. I have experience with React, Node.js, and .NET, and use tools like Visual Studio Code, Docker, and PostgreSQL to build efficient, scalable solutions. My adaptability and quick learning help me tackle various challenges. I'm eager to apply my skills to real-world problems and contribute to innovative projects. Let’s connect to create impactful solutions!
+      I'm a Computer Science graduate from UNLV and a software developer specializing in full-stack web development. I build scalable solutions using Next.js, TypeScript, Python, C#, SQL, and Supabase, with expertise in React, Node.js, Docker, and PostgreSQL. I have hands-on experience integrating and developing different APIs and managing Git, Github, and version control.
+
+      Driven by a passion for problem-solving and innovation, I thrive in fast-paced, evolving projects. Let's connect and build something great!
       </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

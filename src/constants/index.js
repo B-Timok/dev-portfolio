@@ -20,6 +20,7 @@ import {
   unlv,
   shopify,
   lessi,
+  workoutai,
   tictactoe,
   roadwatch,
   speedcubedb,
@@ -57,7 +58,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    url: `${baseUrl}/BTimokResume24.pdf`,
+    url: `${baseUrl}/BTimokResume24.pdf?v=${new Date().getTime()}`,
   },
   {
     id: "contact",
@@ -182,6 +183,31 @@ const experiences = [
 
 const projects = [
   {
+    name: "Workout App",
+    description: "Developed a fitness assistant that generates personalized workout routines based on user details and goals. Implemented secure authentication and user data management with Supabase. Built a real-time dashboard that tracks user progress, achievements, and workout history.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: workoutai,
+    source_code_link: "https://github.com/B-Timok/workout-ai",
+    app_link: "https://workout-ai-plum.vercel.app/",
+  },
+  {
     name: "Roadwatch",
     description: "A Progressive Web App designed for real-time road condition reporting, hazard alerts, and community input on local infrastructure. This project won first place in a UNLV College of Engineering software design competition, showcasing its effectiveness in improving road safety and community engagement.",
     tags: [
@@ -214,27 +240,6 @@ const projects = [
     source_code_link: "https://github.com/UNLV-CS472-672/2024-S-GROUP1-Roadwatch",
   },
   {
-    name: "Tic Tac Toe Web App",
-    description: "An interactive Tic Tac Toe web application featuring responsive design, dynamic gameplay, and a computer opponent. This project showcases front-end development skills with a focus on user interaction and basic AI implementation.",
-    tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: tictactoe,
-    source_code_link: "https://github.com/B-Timok/TicTacToe",
-    play_game_link: "https://b-timok.github.io/TicTacToe/",
-  },
-  {
     name: "Speedcube Database",
     description: "A MySQL database project for tracking and analyzing a speedcube collection. It includes tables for detailed cube information and time statistics, allowing in-depth analysis of performance, solve times, and trends. Features capabilities for sorting and querying data to enhance understanding of speedcubing progress and efficiency.",
     tags: [
@@ -253,31 +258,6 @@ const projects = [
     ],
     image: speedcubedb,
     source_code_link: "https://github.com/B-Timok/SideProjects/tree/main/sqlProjects/speedCubes",
-  },
-  {
-    name: "Pokemon Egg Hatching",
-    description: "This project uses a Pokemon dataset to predict egg hatch times and Pokemon types. It employs libraries like pandas, numpy, and sklearn for data analysis and predictions, offering insights into Pokemon characteristics and behavior.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "pandas",
-        color: "green-text-gradient",
-      },
-      {
-        name: "numpy",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "sklearn",
-        color: "red-text-gradient",
-      }
-    ],
-    image: pokemon,
-    source_code_link: "https://github.com/nickhouses/ML/tree/main/Project",
-    report_link: `${baseUrl}/PokemonML.pdf`,
   },
   {
     name: "NBA Scoreboard Analysis",
@@ -302,6 +282,27 @@ const projects = [
     ],
     image: nbascores,
     source_code_link: "https://github.com/B-Timok/SideProjects/tree/main/pyProjects/sportsScores",
+  },
+  {
+    name: "Tic Tac Toe Web App",
+    description: "An interactive Tic Tac Toe web application featuring responsive design, dynamic gameplay, and a computer opponent. This project showcases front-end development skills with a focus on user interaction and basic AI implementation.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tictactoe,
+    source_code_link: "https://github.com/B-Timok/TicTacToe",
+    play_game_link: "https://b-timok.github.io/TicTacToe/",
   },
   {
     name: "Sorting Algorithms with Pygame",
@@ -335,7 +336,7 @@ const socialMediaLinks = [
   {
     id: "cv",
     title: "Resume",
-    url: `${baseUrl}/BTimokResume24.pdf`,
+    url: `${baseUrl}/BTimokResume24.pdf?v=${new Date().getTime()}`,
     icon: cv,
   },
   {

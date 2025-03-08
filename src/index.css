@@ -170,7 +170,7 @@
 }
 
 .social-media-link.resume:hover {
-  color: #fdeb6f; /* Resume text turns red on hover */
+  color: #fdeb6f; /* Resume text turns yellow on hover */
 }
 
 @media (max-width: 600px) {

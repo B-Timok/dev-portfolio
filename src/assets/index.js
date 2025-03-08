@@ -32,6 +32,7 @@ import shopify from "./company/shopify.png";
 import unlv from "./company/unlv.png";
 import lessi from "./company/lessi.png";
 
+import workoutai from "./workoutai.png";
 import tictactoe from "./tictactoe.png";
 import roadwatch from "./roadwatch.png";
 import speedcubedb from "./speedcubedb.png";
@@ -68,6 +69,7 @@ export {
   shopify,
   unlv,
   lessi,
+  workoutai,
   tictactoe,
   roadwatch,
   speedcubedb,
