@@ -183,8 +183,8 @@ const experiences = [
 
 const projects = [
   {
-    name: "Workout App",
-    description: "Developed a fitness assistant that generates personalized workout routines based on user details and goals. Implemented secure authentication and user data management with Supabase. Built a real-time dashboard that tracks user progress, achievements, and workout history.",
+    name: "Athlos",
+    description: "Developed a fitness assistant that generates customized workout plans based on user preferences and progress. Integrated secure authentication and user data management with Supabase. Built a real-time dashboard to track progress, achievements, and workout history.",
     tags: [
       {
         name: "nextjs",
@@ -204,8 +204,8 @@ const projects = [
       },
     ],
     image: workoutai,
-    source_code_link: "https://github.com/B-Timok/workout-ai",
-    app_link: "https://workout-ai-plum.vercel.app/",
+    source_code_link: "https://github.com/B-Timok/Athlos",
+    app_link: "https://athlos-plum.vercel.app/",
   },
   {
     name: "Roadwatch",
